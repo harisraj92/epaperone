@@ -1,0 +1,28 @@
+src/
+├── api/
+│   ├── authApi.js            # API for authentication (e.g., login)
+│   └── userApi.js            # API for user-related requests
+├── components/
+│   ├── Header/
+│   │   ├── Header.jsx        # Header component
+│   │   └── Header.css        # Header styles
+│   ├── Footer/
+│   │   ├── Footer.jsx        # Footer component
+│   │   └── Footer.css        # Footer styles
+│   ├── Sidebar/
+│   │   ├── Sidebar.jsx       # Sidebar component
+│   │   └── Sidebar.css       # Sidebar styles
+│   ├── Dashboard/
+│   │   ├── Dashboard.jsx     # Dashboard component
+│   │   └── Dashboard.css     # Dashboard styles
+│   ├── Login/
+│   │   ├── Login.jsx         # Login component
+│   │   ├── Login.css         # Login styles
+│   │   └── loginApi.js       # Login API
+│   └── Layout/
+│       ├── Layout.jsx        # Layout component to manage structure
+│       └── Layout.css        # Layout styles
+├── routes/
+│   └── AppRoutes.jsx         # Centralized routing
+├── App.jsx                   # Main entry point
+└── index.js                  # App initialization
